@@ -34,7 +34,7 @@
 
 <script>
 export default {
-
+  
 }
 </script>
 
@@ -58,13 +58,13 @@ export default {
     .fire-background .nav-title {
         font-size: 1.3em;
         font-weight: 600;
-        color: #333;
+        color: #fff;
     }
 
     .fire-background .nav-title:hover, 
     .fire-background .nav-title:active,  
     .fire-background .nav-title:focus {
-        color: #333;
+        color: #fff;
     }
     
 </style>

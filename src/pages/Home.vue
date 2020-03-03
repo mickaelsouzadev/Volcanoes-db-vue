@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .bg-hero{
       background-image: url('https://i.pinimg.com/originals/63/37/a2/6337a2a4cfa9c09374d30117f9a269da.jpg'); 
       background-position: center center;
@@ -42,9 +42,15 @@ export default {
   .title {
     font-weight: 600;
     color: #fff;
-    font-size: 5em;
+    font-size: 3.45em;
     font-family: 'Roboto', sans-serif;
 
+  }
+
+  @media (min-width: 508px) {
+    .title {
+      font-size: 5em;
+    }
   }
 
   .subtitle {
